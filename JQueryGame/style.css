@@ -11,22 +11,22 @@ body {
     width: 90%;
     margin-left: 5%;
     position: relative;
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
     overflow: hidden;
-    background-color: #31b6ce;
+    background-color: #caf1f8;
 }
 
 #score_help {
     text-align: center;
     font-size: 25px;
-    background-color: #eaeaea;
+    background-color: #ddffb7;
 }
 
 #branch {
     position: absolute;
     height: 2%;
     width: 100%;
-    background-color: #7b2e00;
+    background-color: #c58b6a;
     top: 23%;
 }
 
@@ -56,12 +56,14 @@ body {
 .goodnut {
     position: absolute;
     top: 18%;
-    height: 8%;
-    width: 4%;
-    background-color: rgb(136, 95, 18);
-    border-radius: 50%;
+    bottom: 0px;
+    height:8%;
+    width: 5%;
+    background: url('goodnut.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 99;
-}
+} 
 
 #goodnut1 {
     left: calc(20% + 8%/2 - 2%/2);
@@ -80,7 +82,7 @@ body {
     position: absolute;
     bottom: 0px;
     height: 7%;
-    width: 7%;
+    width: 5%;
     background: url('badnut.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,7 +106,7 @@ body {
     position: absolute;
     height: 7%;
     width: 100%;
-    background-color: #292929;
+    background-color: #ffffff;
     bottom: 0;
     z-index: 10;
 }
@@ -123,7 +125,7 @@ body {
 
 #score_1 {
     position: absolute;
-    color: #424242;
+    color: #000000;
     font-size: 30px;
     top: 45%;
     left: 30%;
@@ -134,8 +136,8 @@ body {
     position: absolute;
     height: 10%;
     width: 100%;
-    background-color: rgb(255, 174, 0);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
     top: 40%;
     font-size: 35px;
     display: none;
